@@ -2,15 +2,15 @@ import { MapPin, Globe, Award } from 'lucide-react';
 
 export default function AboutMe() {
   return (
-    <section id="about">
+    <section id="about" className="section">
       <div className="container">
         <div className="about-grid">
-          <div className="about-content">
+          <div className="about-text">
             <div className="section-label">About Me</div>
-            <h2>Infrastructure & Automation Engineer</h2>
+            <h2 className="section-title">Infrastructure & Automation Engineer</h2>
             <p>
-              I'm Shehab Albelazi — an Infrastructure and Automation Engineer based in Tripoli, Libya. 
-              I specialize in building systems that don't need babysitting: networks that self-heal, 
+              I'm Shehab Albelazi — an Infrastructure and Automation Engineer based in Tripoli, Libya.
+              I specialize in building systems that don't need babysitting: networks that self-heal,
               servers that provision themselves, and workflows that connect everything together.
             </p>
             <p>
@@ -47,8 +47,11 @@ export default function AboutMe() {
             </div>
           </div>
           <div className="about-visual">
-            <div className="about-code-block">
-              <pre>{`// shehab.albelazi.ly
+            <div className="code-block">
+              <div className="dot dot-1" />
+              <div className="dot dot-2" />
+              <div className="dot dot-3" />
+              <pre>{`// shehap.albelazi.ly
 {
   name: "Shehab Albelazi",
   title: "Infrastructure & Automation Engineer",
