@@ -1,4 +1,4 @@
-import { ArrowRight, Bot } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 export default function Hero() {
   return (
@@ -7,35 +7,34 @@ export default function Hero() {
         <div className="hero-grid">
           <div className="hero-content">
             <div className="hero-badge">
-              <Bot size={14} />
-              <span>Infrastructure & Automation Engineer</span>
+              Infrastructure & Automation Engineer
             </div>
             <h1 className="hero-title">
-              I turn repetitive operations into{' '}
-              <span className="text-accent">automated systems</span>{' '}
-              that run themselves.
+              I build systems that{' '}
+              <span className="highlight">run themselves</span>
             </h1>
             <p className="hero-subtitle">
-              Whatever business you're building, I can help you streamline,
-              automate, and scale it.
+              From self-provisioning servers to AI-driven workflows —
+              I automate the repetitive so you can focus on what matters.
             </p>
             <div className="hero-actions">
-              <a href="#contact" className="btn-primary">
+              <a href="#contact" className="btn btn-primary">
                 Book a Free Consultation <ArrowRight size={18} />
               </a>
-              <a href="#services" className="btn-secondary">
-                See What I Do
+              <a href="#work" className="btn btn-secondary">
+                See My Work
               </a>
             </div>
           </div>
           <div className="hero-visual">
-            <div className="hero-illustration">
-              <div className="cube cube-1" />
-              <div className="cube cube-2" />
-              <div className="cube cube-3" />
-              <div className="float-bot">
-                <Bot size={48} color="#00BFA5" strokeWidth={1.2} />
-              </div>
+            <div className="hero-shapes">
+              <div className="shape shape-1" />
+              <div className="shape shape-2" />
+              <div className="shape shape-3" />
+              <div className="shape shape-4" />
+              <div className="shape-dot shape-dot-1" />
+              <div className="shape-dot shape-dot-2" />
+              <div className="shape-dot shape-dot-3" />
             </div>
           </div>
         </div>

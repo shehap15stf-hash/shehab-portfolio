@@ -17,6 +17,10 @@ export default function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="footer-inner">
+          <div className="footer-brand">
+            <div className="navbar-logo-mark" style={{ width: 24, height: 24, fontSize: '0.7rem' }}>S</div>
+            Shehab Albelazi
+          </div>
           <div className="footer-links">
             <a href="https://github.com/shehap15stf-hash" target="_blank" rel="noopener noreferrer">
               <GitHubIcon /> GitHub
@@ -26,7 +30,7 @@ export default function Footer() {
             </a>
           </div>
           <p className="footer-copy">
-            © {new Date().getFullYear()} Shehab Albelazi — Built with <Heart size={14} color="#00BFA5" fill="#00BFA5" /> & automation
+            © {new Date().getFullYear()} — Built with <Heart size={14} color="#84CC16" fill="#84CC16" /> & automation
           </p>
         </div>
       </div>
